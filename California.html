@@ -2,17 +2,27 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 <body>
 <h1>California</h1>
 <button id="toggleButton" onclick="toggleAlbums()">Show Public Albums</button>
 <ul id="albumList">
-    <li class="private"><a href="https://photos.google.com/share/AF1QipNKA8SlSkeVfLbHg8xVH9Mopib-onlPryjY3aLyWtYGiSNMlyb7Uzglf8mOTolSCQ?obfsgid=105905870248717414385">2021 Lake Tahoe - Private</a></li>
-    <li class="public"><a href="https://photos.app.goo.gl/U7ZMntPYbnrrrdgu9">2021 Lake Tahoe - Public</a></li>
-    <li class="private"><a href="https://photos.google.com/share/AF1QipPwS_PDdc6W6E86QmFF5_v6YiLw8FV4UgvsI3VABkUQbzl7HHTHvV6pHkLwCTCc3Q?obfsgid=105905870248717414385">2021 Modoc County - Private</a></li>
-    <li class="public"><a href="https://photos.app.goo.gl/n67yBT8Jrws7CpCq6">2021 Modoc County - Public</a></li>
-    <li class="private"><a href="https://photos.google.com/share/AF1QipNPMMU0Bt10NwNkxfBJMFkImtJgBtpt8u8OOSxLuBEjaYwIbQOp98Km9TfjhbG3Sg?obfsgid=105905870248717414385">2021 Sue-meg - Private</a></li>
-    <li class="private"><a href="https://photos.google.com/share/AF1QipMpsS-lcJBnEqXkdHF61oXkNc0p6D7bPHMIY9AEvXYw_ut7FHDr20iK9QGdx-u9qA?obfsgid=105905870248717414385">2021 San Diego - Private</a></li>
-    <li class="public"><a href="https://photos.app.goo.gl/C4tMXo8Fhg8xaTEs6">2021 Sue-meg - Public</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipOUcFRfsb1qGXWeaRHKMcFS3KJaqABHwvm1EadtCCj4gN00axAdbdnesXY3F434oQ?obfsgid=105905870248717414385">1990s CA - Redwood National Forest</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipM4566Z9pBIh7spk9EoyBowandtDSbZ9hI54cYg8mr_t4vyjsDgzknZNmnjrvEflw">2005 CA - San Diego</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipMeqaxhbZ1motbTnSJJFReAB7ylwNbiaGJz7b0sazjuody-as5MzoKtqCur3cR0jQ?obfsgid=105905870248717414385">2011 California</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipNgOXpy9foqvo2-SoPUTOjDbl5X3gtC4NyialDJr50rRSpBjSYwG7oCyEcjILWgrA?obfsgid=105905870248717414385">2012 California - Minayo-Ozan Wedding</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipOUs2b0-qtkmxdyyfPXGHQO09usr6Ncht4SlnaoYtq7WHydZ968KLygrFnowGXWbg?obfsgid=105905870248717414385">2014 California - Legoland</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipMp-piDRWtbjwzxRHeMEqhoxdERDUEtWY-uDD7Daovee7tTj9qSKXTzZYbnNRyr4Q?obfsgid=105905870248717414385">2016 California - Disneyland</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipMq1SaztpRL-PKEDNASjwG2T-uxcuCxicIbPlV_qsn8_yugONQbnyNgP2CKymftLQ?obfsgid=105905870248717414385">2018 California</a></li>
+<li class="public"><a href="https://photos.app.goo.gl/oqvSoCj8YY6EFcwUA">2018 California - Public</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipMpsS-lcJBnEqXkdHF61oXkNc0p6D7bPHMIY9AEvXYw_ut7FHDr20iK9QGdx-u9qA?obfsgid=105905870248717414385">2021 CA - San Diego</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipNPMMU0Bt10NwNkxfBJMFkImtJgBtpt8u8OOSxLuBEjaYwIbQOp98Km9TfjhbG3Sg?obfsgid=105905870248717414385">2021 CA - Sue-meg</a></li>
+<li class="public"><a href="https://photos.app.goo.gl/C4tMXo8Fhg8xaTEs6">2021 CA - Sue-meg - Public</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipNKA8SlSkeVfLbHg8xVH9Mopib-onlPryjY3aLyWtYGiSNMlyb7Uzglf8mOTolSCQ?obfsgid=105905870248717414385">2021  CA - Lake Tahoe</a></li>
+<li class="public"><a href="https://photos.app.goo.gl/U7ZMntPYbnrrrdgu9">2021  CA - Lake Tahoe - Public</a></li>
+<li class="private"><a href="https://photos.google.com/share/AF1QipPwS_PDdc6W6E86QmFF5_v6YiLw8FV4UgvsI3VABkUQbzl7HHTHvV6pHkLwCTCc3Q?obfsgid=105905870248717414385">2021 CA - Modoc County</a></li>
+<li class="public"><a href="https://photos.app.goo.gl/n67yBT8Jrws7CpCq6">2021 CA - Modoc County - Public</a></li>
 </ul>
-</body></html>
+</body>
+</html>
